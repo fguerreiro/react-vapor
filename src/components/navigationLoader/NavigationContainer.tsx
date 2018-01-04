@@ -12,7 +12,7 @@ export class NavigationContainer extends React.Component<INavigationProps, any> 
       <nav className={classes}>
         <div className='navigation-menu'>
           <div className='navigation-menu-sections'>
-              {this.props.children}
+            {this.props.children}
           </div>
         </div>
       </nav>

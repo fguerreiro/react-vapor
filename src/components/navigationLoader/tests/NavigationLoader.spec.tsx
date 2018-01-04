@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
-import { NavigationLoader } from '../NavigationLoader';
+import { NavigationLoaderExample } from '../NavigationLoaderExample';
 
 describe('NavLoader', () => {
-    it('renders without errors', () => {
-        let element = shallow(
-            <NavigationLoader />
-        );
-        expect(() => {
-            shallow(
-                <NavigationLoader />
-            );
-        }).not.toThrow();
-    });
+  it('renders without errors', () => {
+    let element = shallow(
+      <NavigationLoaderExample />
+    );
+    expect(() => {
+      shallow(
+        <NavigationLoaderExample />
+      );
+    }).not.toThrow();
+  });
 });
