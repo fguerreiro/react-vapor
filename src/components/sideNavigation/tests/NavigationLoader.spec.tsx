@@ -5,7 +5,7 @@ import { NavigationLoaderExample } from '../NavigationLoaderExample';
 describe('NavLoader', () => {
   it('renders without errors', () => {
     let element = shallow(
-      <NavigationLoaderExample />
+      <Navi />
     );
     expect(() => {
       shallow(
