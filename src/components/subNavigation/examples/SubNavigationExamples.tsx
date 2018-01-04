@@ -3,7 +3,7 @@ import { SubNavigation } from '../SubNavigation';
 
 export class SubNavigationExamples extends React.Component<any, any> {
   render() {
-      return (
+    return (
       <div className='mt2'>
         <label className='form-control-label'>Sub Navigation</label>
         <div className='flex flex-row flex-stretch' style={{ height: '200px' }}>
